@@ -1,6 +1,6 @@
 import { useState, InputHTMLAttributes } from "react";
-import classNameMerge from "@/shared/utils/classNameMerge";
-import Icon from "@/shared/components/atoms/Icon";
+import classNameMerge from "../shared/utils/classNameMerge";
+import Icon from "../shared/components/atoms/Icon";
 import { clsx } from "clsx";
 
 type Props = {

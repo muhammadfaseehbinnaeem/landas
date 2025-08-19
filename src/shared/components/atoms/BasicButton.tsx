@@ -1,5 +1,5 @@
 import type { ButtonHTMLAttributes, PropsWithChildren } from "react";
-import classNameMerge from "@/shared/utils/classNameMerge";
+import classNameMerge from "../shared/utils/classNameMerge";
 
 export type BasicButtonProps = {
   variant?: "primary" | "outline" | "ghost" | "disabled";
