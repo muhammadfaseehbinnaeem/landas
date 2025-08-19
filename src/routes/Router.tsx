@@ -1,6 +1,6 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { ROUTE } from "./route";
-import LoginPage from "@/pages/LoginPage";
+import LoginPage from "../pages/LoginPage";
 import HomePage from "@/pages/HomePage";
 import AuthLayout from "@/shared/layouts/AuthLayout";
 import MainLayout from "@/shared/layouts/MainLayout";
