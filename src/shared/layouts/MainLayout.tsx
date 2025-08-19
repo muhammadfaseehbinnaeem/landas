@@ -1,7 +1,7 @@
 import { PropsWithChildren } from "react";
-import { useAuthStore } from "../../stores/authStore";
+import { useAuthStore } from "@/stores/authStore";
 import { useNavigate } from "react-router-dom";
-import { ROUTE } from "../../routes/route";
+import { ROUTE } from "@/routes/route";
 
 export default function MainLayout({ children }: PropsWithChildren) {
   const logout = useAuthStore((s) => s.logout);
