@@ -1,13 +1,13 @@
-import { useAuthStore } from "../stores/authStore";
-import BasicButton from "../shared/components/atoms/BasicButton";
+import { useAuthStore } from "@/stores/authStore";
+import BasicButton from "@/shared/components/atoms/BasicButton";
 
 // Import images
-import heroImg from "../assets/carousel.jpg";
-import productImg1 from "../assets/product1.png";
-import productImg2 from "../assets/product2.png";
-import productImg3 from "../assets/product3.png";
-import productImg4 from "../assets/product4.png";
-import highlightedProductImg from "../assets/highlighted-product.jpg";
+import heroImg from "@/assets/carousel.jpg";
+import productImg1 from "@/assets/product1.png";
+import productImg2 from "@/assets/product2.png";
+import productImg3 from "@/assets/product3.png";
+import productImg4 from "@/assets/product4.png";
+import highlightedProductImg from "@/assets/highlighted-product.jpg";
 
 const mockCards = [
   { id: 1, title: "경량 패딩", price: "₩89,000", img: productImg1 },
