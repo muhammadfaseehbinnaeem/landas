@@ -1,8 +1,8 @@
-import { useAuthStore } from "@/stores/authStore";
-import BasicButton from "@/shared/components/atoms/BasicButton";
+import { useAuthStore } from "../stores/authStore";
+import BasicButton from "../shared/components/atoms/BasicButton";
 
 // Import images
-import heroImg from "@/assets/carousel.jpg";
+import heroImg from "../assets/carousel.jpg";
 import productImg1 from "@/assets/product1.png";
 import productImg2 from "@/assets/product2.png";
 import productImg3 from "@/assets/product3.png";
