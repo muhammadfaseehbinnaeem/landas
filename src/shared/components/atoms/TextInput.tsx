@@ -1,5 +1,5 @@
 import type { InputHTMLAttributes } from "react";
-import classNameMerge from "../shared/utils/classNameMerge";
+import classNameMerge from "@/shared/utils/classNameMerge";
 import { clsx } from "clsx";
 
 type Props = {

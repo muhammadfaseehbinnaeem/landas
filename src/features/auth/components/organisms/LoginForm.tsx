@@ -1,11 +1,11 @@
 import { useState } from "react";
-import BasicButton from "../shared/components/atoms/BasicButton";
-import TextInput from "../shared/components/atoms/TextInput";
-import PasswordField from "../shared/components/molecules/PasswordField";
-import Checkbox from "../shared/components/atoms/Checkbox";
-import { useAuthStore } from "../stores/authStore";
+import BasicButton from "@/shared/components/atoms/BasicButton";
+import TextInput from "@/shared/components/atoms/TextInput";
+import PasswordField from "@/shared/components/molecules/PasswordField";
+import Checkbox from "@/shared/components/atoms/Checkbox";
+import { useAuthStore } from "@/stores/authStore";
 import { useNavigate } from "react-router-dom";
-import { ROUTE } from "../routes/route";
+import { ROUTE } from "@/routes/route";
 
 export default function LoginForm() {
   const [userId, setUserId] = useState("");
